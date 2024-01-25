@@ -12,7 +12,14 @@
 
         brew install neovim
 
-4. Install other goodies!
+4. Clone this to your home directory!
+
+        git clone git@github.com:Peyton-Spencer/.config.git
+
+   - The first time you open `neovim` the package manager `:Lazy` will install all plugins
+   - I also added an alias to my .zshrc `alias vi='nvim'`
+
+6. Install other goodies!
 
         brew install atuin zellij
 
